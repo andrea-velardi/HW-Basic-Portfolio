@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="style.css"></link>
+
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -14,57 +16,47 @@
    <h1>Andrea Velardi</h1>
 
 
-    <section id="dashboard">this is your nav tags
-        <div id="About">
-            <a href="file:///Users/andreavelardi/Desktop/projects/class_hw/Basic-Portfolio/HW-Basic-Portfolio/index.html">
-            About
-            </a>
-        </div>
+   <nav id="nav1">
+            <ul>
+                <li><a href="file:///Users/andreavelardi/Desktop/projects/class_hw/Basic-Portfolio/HW-Basic-Portfolio/index.html">About</a></li>
+                <li><a href="file:///Users/andreavelardi/Desktop/projects/class_hw/Basic-Portfolio/HW-Basic-Portfolio/portfolio.html">Portfolio</a></li>
+                <li><a href="file:///Users/andreavelardi/Desktop/projects/class_hw/Basic-Portfolio/HW-Basic-Portfolio/contact.html">Contact</a></li>
+              </ul>
+    </nav> 
 
-        <div id="Portfolio">
-            <a href="file:///Users/andreavelardi/Desktop/projects/class_hw/Basic-Portfolio/HW-Basic-Portfolio/index.html">
-            Portfolio - link to Portfolio (change)
-            </a>
-        </div>
+<br>
 
-        <div id="Contact">
-            <a href="file:///Users/andreavelardi/Desktop/projects/class_hw/Basic-Portfolio/HW-Basic-Portfolio/index.html">
-            Contact - link to Contact (change)
-            </a>
-        </div>
-    </section> 
-
-    <br>
-
-    <section id="Connect">Connect with Me
+    <nav id="nav2">
+        <h2>Connect with Me </h2>
         <br>
         <a href="https://github.com/andrea-velardi">
-        <img border="0" alt="githubpic"
+        <img alt="githubpic"
         src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-128.png"
         width="50"
         height="50">
         </a>
 
         <a href="https://www.linkedin.com/in/andrea-velardi-9413a774/">
-        <img border="0" alt="linkedinpic"
+        <img alt="linkedinpic"
         src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-128.png"
         width="50"
         height="50">
         </a>
 
         <a href="https://stackoverflow.com/users/9254679/andrea-velardi?tab=profile">
-        <img border="0" alt="stackoverflowpic"
+        <img  alt="stackoverflowpic"
         src="https://cdn3.iconfinder.com/data/icons/inficons/128/stackoverflow.png"
         width="50"
         height="50">
         </a>
 
-    </section>
+    </nav>
 
+<br>
 
-
-    <section id="About Me">
+    <section id="About_Me">
     <h2>About Me</h2>
+    <img id="profilepic" src="https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAArzAAAAJGExMmZhNDJhLTgzZGUtNGI3My1hYTRmLWIwMThjMjlkZWQ5NA.jpg" alt="My Bio Pic">
         <p>I was born in California but moved when I was very young to Philadelphia (Go Eagles!).</p>
         <p>When I turned 18, I knew I was ready to be "going going, back back, to Cali Cali" (R.I.P. Biggie Smalls).</p>
         <p>I moved away from the east coast to attend California Polytechnic State University in San Luis Obispo, CA. And if you are a big Operah fan, she quoted that city "the happiest city in America".</p>
@@ -74,27 +66,114 @@
         <p>I moved to Dallas to work for the Topgolf Corporate Office and absolutely love it. I have been with Topgolf for almost two years and it is a phenomenal organization.</p>
         <p>And the city of Dallas is a blast - the town culture is fun and engaging, with a plethera of great bars and restaurants.</p>
         <p>And that's my (short version) of my life story! Have fun exploring the page and more fun facts about moi. </p>
-        
 
-    <img src="https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAArzAAAAJGExMmZhNDJhLTgzZGUtNGI3My1hYTRmLWIwMThjMjlkZWQ5NA.jpg" alt="My Bio Pic">
+
+    
     </section>
 
-
+<div class="clearfix"></div>
 
 <br><br>
-
-
-<h3>These are a few of my favorite things</h3>
-   <ul>
-       <li>I love buffalo chicken</li>
-       <li>Favorite Band - Royal Blood</li>
-       <li>I have a Minature German Shepherd named Zelda - she is the beez-neez</li>
-       <li>Favorite past time activity - specifically...drinks and food, on a patio, with friends and family</li>
-    </ul>
 
 <footer>
     @Copyright 2018 Andrea Velardi
 </footer>
+
+<style>
+
+*{box-sizing: border-box;
+  
+}
+
+body{
+    background-color: #777; 
+}
+
+li {
+
+    display: inline;
+
+    }
+
+a:link{
+    text-decoration: none; 
+}
+
+    h1{
+
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center; 
+        padding: 10px; 
+        background-color: #bae; 
+        width: 240px;
+        height: 90px; 
+        float: left; 
+        margin-top: 0px; 
+        margin-left: 100px; 
+    }
+
+    h2{
+        text-decoration: underline; 
+    }
+
+    #nav1{
+
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: right; 
+        padding: 20px;
+        background: peachpuff;
+      
+    }
+
+    #nav2{
+
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center; 
+        padding: 20px; 
+        background-color: peachpuff; 
+        width: 270px; 
+        float: right; 
+        margin-right: 240px; 
+        margin-top: 20px; 
+
+
+    }
+
+    #About_Me{
+
+        font-family: Arial, Helvetica, sans-serif; 
+        padding: 20px; 
+        background-color: peachpuff; 
+        width: 650px; 
+        margin-left: 200px; 
+       
+    }
+
+    #profilepic{
+
+        float: right; 
+        padding: 5px; 
+    }
+   
+    .clearfix {
+        overflow: auto; 
+    }
+
+   footer{
+
+       font-family: Arial, Helvetica, sans-serif; 
+       text-align: center; 
+       padding: 20px; 
+       background-color: peachpuff; 
+
+   } 
+
+
+</style>
+
+
+
+
 
 </body>
 
